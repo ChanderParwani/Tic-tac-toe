@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TIC-TAC-TOE</title>
+<link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+	<h1>TIC-<span id="tac">TAC</span>-TOE</h1>
+	<div class="container">
+		<div id="score">X=<span id="X">0</span><span id="center">|SCORE|</span> O=<SPAN id="O">0</SPAN> </div>
+		<table>
+		 	<tr>
+		 	<td id="box1" onclick="get(this)"></td>
+		 	<td id="box2" onclick="get(this)"></td>
+		 	<td id="box3" onclick="get(this)"></td>	
+		 	</tr>	
+		 	<tr>
+		 	<td id="box4" onclick="get(this)"></td>
+		 	<td id="box5" onclick="get(this)"></td>
+		 	<td id="box6" onclick="get(this)"></td>	
+		 	</tr>	
+		 	<tr>
+		 	<td id="box7" onclick="get(this)"></td>
+		 	<td id="box8" onclick="get(this)"></td>
+		 	<td id="box9" onclick="get(this)"></td>	
+		 	</tr>	
+		 </table>
+		 <div id="score">
+		 <button onclick="reset()">Reset</button> Turn:<span id="span">X</span>
+		</div>
+		<script type="text/javascript" src="script.js"></script>
+	</div>
+</body>
+</html>
